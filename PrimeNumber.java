@@ -3,7 +3,7 @@ public class PrimeNumber {
 
         int num = 29;
         boolean flag = false;
-        for(int i = 2; i <= num/2; ++i){
+        for(int i = 2; i <= num/2; i++){
             if(num % i == 0){
                 flag = true;
                 break;
@@ -11,7 +11,7 @@ public class PrimeNumber {
         }
 
         if (!flag)
-            System.out.println(num + " is a prime number.");
+            System.out.print(num + " is a prime number.");
         else
-            System.out.println(num + " is not a prime number.");
+            System.out.print(num + " is not a prime number.");
 }}
